@@ -1,0 +1,41 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #000000; /* Adjust the background color as needed */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-title {
+    font-size: 1.5rem;
+    color: white; /* Change the text color to white */
+    text-decoration: none; /* Remove underline from link */
+  }
+  
+  .navbar-title a {
+    color: white; /* Ensure the link inside the title is also white */
+  }
+  
+  .navbar-list {
+    list-style-type: none; /* Remove bullet points */
+    display: flex; /* Use flexbox for horizontal layout */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .navbar-item {
+    margin-left: 20px; /* Space between items */
+  }
+  
+  .navbar-item a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Set link color to white */
+    transition: color 0.3s; /* Add a transition effect */
+  }
+  
+  .navbar-item a:hover {
+    color: #ffcc00; /* Change color on hover (optional) */
+  }
+  

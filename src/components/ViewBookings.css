@@ -1,0 +1,77 @@
+.app-container {
+    max-width: 70%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .dropdown,
+  .date-picker {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .view-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .view-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .bookings-list {
+    margin-top: 20px;
+  }
+  
+  .bookings-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+  }
+  
+  .booking-card {
+    background-color: #e7f3fe;
+    border: 1px solid #b3d4fc;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .booking-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .booking-card h4 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+  }
+  
+  .booking-card p {
+    margin: 5px 0;
+  }
+  
